@@ -97,7 +97,7 @@ def print_adj_matrix(adj_matrix):
 
 if __name__ == "__main__":
     n = int(input("Enter the number of nodes in the city "))
-    edge_probability = 0.5
+    edge_probability = 0.1
     traffic_intensity = float(
         input("Enter the intensity of traffic in percentage"))
     # random.seed(42)
